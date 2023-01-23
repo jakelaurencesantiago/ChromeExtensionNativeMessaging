@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "name" : "NativeSample",
+    "description" : "Chrome Extension native messaging example",
+    "author" : "jakelaurencesantiago",
+    "version" : "0.1",
+    "key": "key_of_extension",
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "permissions" : ["nativeMessaging"],
+    "action" : {}
+}
